@@ -21,7 +21,7 @@ The more community members we have that are using these connectors the faster we
 
 ### Contributors
 
-MeltanoLabs contributors are community members who volunteer to actively make contributions and review pull requests/issues within MeltanoLabs but dont have an explicit maintainer status on any one repository.
+MeltanoLabs contributors are community members who volunteer to actively make contributions and review pull requests/issues within MeltanoLabs repositories but dont have an explicit maintainer status on any one repository.
 This group of community members will be part of the `labs` slack channel and will be the first to hear about repositories that need new maintainer volunteers and general maintenance requests.
 
 ### Maintainers
@@ -45,7 +45,7 @@ The two main ways that connectors are added to MeltanoLabs right now are either 
 MeltanoLabs is a great place for community members to incubate connectors for new sources or destinations in a shared space to make it easier for the community to contribute and maintain it into the future after it leaves the development phase.
 We also encourage community members to use this as a place where existing connectors can be rebuilt or ported over to the Meltano SDK.
 
-If you'd like to create a new connector in MeltanoLabs reach out via Slack when youre code is ready to be pushed up to GitHub and an Admin will create you a repository and give you access.
+If you'd like to create a new connector in MeltanoLabs create an issue labeled "Add New Connector - [your connector name]" in the [Meta repo](https://github.com/MeltanoLabs/Meta) and assign it to @tayloramurphy and @pnadolny13 when youre code is ready to be pushed up to GitHub and they will create you a repository and give you access.
 Alternatively you could build it in your own namespace and later migrate it once its ready.
 
 ### Migrating An Existing Connector
@@ -55,8 +55,9 @@ In this case the primary maintainer has the option to migrate their connector to
 
 Connectors in MeltanoLabs have quaility expectations, if the connectors isn't there yet we will label it with the appropriate maintenance status in its current state and request community contributions to get it up to the Active (Stable) status we expect.
 
-TODO: add instructions for migrating
-
+If you'd like to migrate an existing connector to MeltanoLabs create an issue labeled "Migrate Existing Connector - [your connector name]" in the [Meta repo](https://github.com/MeltanoLabs/Meta) and assign it to @tayloramurphy and @pnadolny13 with a link to the source repository you would like to migrate.
+The Admins will review your repository and will give instructions on how to migrate along with necessary permissions once its been approved.
+Alternatively you could build it in your own namespace and later migrate it once its ready.
 
 ### Permissions and Teams
 
