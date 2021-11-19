@@ -3,7 +3,7 @@ The why, what, and how of MeltanoLabs
 
 We want [MeltanoLabs](https://meltano.com/blog/launching-meltanolabs-your-home-for-singer-connectors-dbt-packages-and-all-meltano-plugins/) to be a resource for the Singer Community where the expectations of taps and targets are well defined and maintained for the long term.
 The Singer community has a vast library of connectors but the quality, feature completeness, and maintenance vary.
-MeltanoLabs is a place where new connectors, built using the Meltano SDK, can be incubated and existing unmaintained connectors in the ecosystem can be migrated and upgraded to the standard that the MeltanoLabs community expects.
+MeltanoLabs is a place where new connectors, primarily built using the Meltano SDK, can be incubated and existing unmaintained connectors in the ecosystem can be migrated and upgraded to the standard that the MeltanoLabs community expects.
 As part of the acceptance process for MeltanoLabs we will be requiring a level of commitment by the contributors and a minimum level of quality.
 Based on the [Maintenance Statuses](#Maintenance-Statuses) we expect that most of the connectors in MeltanoLabs are in the Active (Stable) category and there's a smaller subset of connectors in the Development or Prerelease status because they were either just created or recently migrated.
 
@@ -53,7 +53,7 @@ Alternatively you could build it in your own namespace and later migrate it once
 Its understandable that sometimes community members build new connector or create a fork and add features in their own namespace which then becomes the primary variant used by the community, but they no longer have the capacity or desire to maintain it.
 In this case the primary maintainer has the option to migrate their connector to MeltanoLabs where it can live and be maintained into the future.
 
-Connectors in MeltanoLabs have quaility expectations, if the connectors isn't there yet we will label it with the appropriate maintenance status in its current state and request community contributions to get it up to the Active (Stable) status we expect.
+Connectors in MeltanoLabs have quality expectations. If the connector does not meet the standard then we will label it with the appropriate maintenance status in its current state and request community contributions to get it up to the Active (Stable) status we expect.
 
 If you'd like to migrate an existing connector to MeltanoLabs create an issue labeled "Migrate Existing Connector - [your connector name]" in the [Meta repo](https://github.com/MeltanoLabs/Meta) and assign it to @tayloramurphy and @pnadolny13 with a link to the source repository you would like to migrate.
 The Admins will review your repository and will give instructions on how to migrate along with necessary permissions once its been approved.
@@ -77,7 +77,7 @@ In this case we will do the following:
 ## Maintenance Statuses
 
 Active (Stable): The connector repository is well maintained and recommended for use in production environments.
-The repository has all of the following attributes; all known issues and bugs are addressed promptly, changes are expected to go through pull requests reviews, releases to main are created on the appropriate cadence, security patches are addressed promptly, a CI pipeline that runs automated testing is present, community contributed pull requests are reviewed in a timely manner, README is complete with examples and detail, etc.
+The repository has all of the following attributes; all known issues and bugs are addressed promptly, changes are expected to go through pull request reviews, releases to main are created on the appropriate cadence, security patches are addressed promptly, a CI pipeline that runs automated testing is present, community contributed pull requests are reviewed in a timely manner, README is complete with examples and detail, etc.
 
 Prerelease (Beta): The repository was recently created and initial development is complete but hasnt been hardened enough for production environments yet.
 We encourage the community to start testing out the connector and submit issues or merge requests to help get it to the Active (Stable) status.
