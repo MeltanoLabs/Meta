@@ -91,3 +91,19 @@ Inactive or Stale: The repository has some or all of the following attributes; u
 
 Unknown: The status of the connector is currently undefined.
 We encourage community memebers to submit merge requests to update incorrect statuses.
+
+## Connector Owners
+
+Check out all the [published connectors](https://hub.meltano.com/singer/maintainers/meltanolabs) on MeltanoHub!
+
+### Taps
+---
+- Connector Name: "[tap-athena](https://github.com/MeltanoLabs/tap-athena)"
+  Status: Active (Stable)
+  Owners:
+    Pat: Maintainer
+- Connector Name: "[tap-csv](https://github.com/MeltanoLabs/tap-csv)"
+  Status: Active (Stable)
+  Owners:
+    "[Pat Nadolny](https://github.com/pnadolny13)": Maintainer
+---
