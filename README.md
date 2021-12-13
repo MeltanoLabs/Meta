@@ -107,6 +107,6 @@ Check out all the [published connectors](https://hub.meltano.com/singer/maintain
   Owners:
     "[Pat Nadolny](https://github.com/pnadolny13)": Maintainer -->
 ---
-actions: ['checkAnswer', 'hints']
-
+title: Testing
+test2: [Pat Nadolny](https://github.com/pnadolny13)
 ---
