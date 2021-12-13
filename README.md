@@ -97,7 +97,7 @@ We encourage community memebers to submit merge requests to update incorrect sta
 Check out all the [published connectors](https://hub.meltano.com/singer/maintainers/meltanolabs) on MeltanoHub!
 
 ### Taps
----
+<!-- ---
 - Connector Name: "[tap-athena](https://github.com/MeltanoLabs/tap-athena)"
   Status: Active (Stable)
   Owners:
@@ -105,5 +105,8 @@ Check out all the [published connectors](https://hub.meltano.com/singer/maintain
 - Connector Name: "[tap-csv](https://github.com/MeltanoLabs/tap-csv)"
   Status: Active (Stable)
   Owners:
-    "[Pat Nadolny](https://github.com/pnadolny13)": Maintainer
+    "[Pat Nadolny](https://github.com/pnadolny13)": Maintainer -->
+---
+actions: ['checkAnswer', 'hints']
+
 ---
