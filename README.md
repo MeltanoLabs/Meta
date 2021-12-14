@@ -101,7 +101,7 @@ Check out all the [published connectors](https://hub.meltano.com/singer/maintain
 
 | Connector Name                                                                   | Status                            | Member/Organization Name                               | Role         |
 |:--------------------------------------------------------------------------------:|:---------------------------------:|:------------------------------------------------------:|:------------:|
-| [tap-athena](https://github.com/MeltanoLabs/tap-athena)                          | Development (Under Construction)  |                                                        | Contributor  |
+| [tap-athena](https://github.com/MeltanoLabs/tap-athena)                          | Development (Under Construction)  |                                                        |              |
 |                                                                                  |                                   | [AJ Steers](https://github.com/aaronsteers)            | Maintainer   |
 | [tap-csv](https://github.com/MeltanoLabs/tap-csv)                                | Active (Stable)                   |                                                        |              |
 |                                                                                  |                                   | [Pat Nadolny](https://github.com/pnadolny13)           | Maintainer   |
