@@ -103,7 +103,7 @@ Check out all the [published connectors](https://hub.meltano.com/singer/maintain
 |:--------------------------------------------------------------------------------:|:---------------------------------:|:------------------------------------------------------:|:------------:|
 | [tap-athena](https://github.com/MeltanoLabs/tap-athena)                          | Development (Under Construction)  |                                                        | Contributor  |
 |                                                                                  |                                   | [AJ Steers](https://github.com/aaronsteers)            | Maintainer   |
-| [tap-csv](https://github.com/MeltanoLabs/tap-csv)                                | Prerelease (Beta)                 |                                                        |              |
+| [tap-csv](https://github.com/MeltanoLabs/tap-csv)                                | Active (Stable)                   |                                                        |              |
 |                                                                                  |                                   | [Pat Nadolny](https://github.com/pnadolny13)           | Maintainer   |
 | [tap-dbt](https://github.com/MeltanoLabs/tap-dbt)                                | Active (Stable)                   |                                                        |              |
 |                                                                                  |                                   | [Edgar Ramírez](https://github.com/edgarrmondragon)    | Maintainer   |
