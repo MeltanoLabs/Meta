@@ -91,3 +91,34 @@ Inactive or Stale: The repository has some or all of the following attributes; u
 
 Unknown: The status of the connector is currently undefined.
 We encourage community memebers to submit merge requests to update incorrect statuses.
+
+
+## Connector Owners
+
+Check out all the [published connectors](https://hub.meltano.com/singer/maintainers/meltanolabs) on MeltanoHub!
+
+### Taps
+
+| Connector Name                                                              | Status                           | Member/Organization Name                                                                                                 | MeltanoHub                                                         |
+|-----------------------------------------------------------------------------|----------------------------------|------------------------------------------------------------------------------|--------------------------------------------------------------------|
+| [tap-athena](https://github.com/MeltanoLabs/tap-athena)                     | Development (Under Construction) | [AJ Steers](https://github.com/aaronsteers) - Maintainer                     | [Link](https://hub.meltano.com/taps/athena--meltanolabs)           |
+| [tap-csv](https://github.com/MeltanoLabs/tap-csv)                           | Prerelease (Beta)                | [Pat Nadolny](https://github.com/pnadolny13) - Maintainer                    | [Link](https://hub.meltano.com/taps/csv--meltanolabs)              |
+| [tap-dbt](https://github.com/MeltanoLabs/tap-dbt)                           | Active (Stable)                  | [Edgar Ramírez](https://github.com/edgarrmondragon) - Maintainer             | [Link](https://hub.meltano.com/taps/dbt--meltanolabs)              |
+| [tap-github](https://github.com/MeltanoLabs/tap-github)                     | Active (Stable)                  | [Eric Boucher](https://github.com/ericboucher) - Maintainer                  | [Link](https://hub.meltano.com/taps/github-search--meltanolabs)    |
+|                                                                             |                                  | [Laurent Savaete](https://github.com/laurentS)  - Maintainer                 |                                                                    |
+| [tap-gitlab](https://github.com/MeltanoLabs/tap-gitlab)                     | Active (Stable)                  | 🔭 Looking For Maintainers! 🔭                                                | [Link](https://hub.meltano.com/taps/gitlab--meltanolabs)           |
+| [tap-google-analytics](https://github.com/MeltanoLabs/tap-google-analytics) | Active (Stable)                  | [Pat Nadolny](https://github.com/pnadolny13) - Maintainer                    | [Link](https://hub.meltano.com/taps/google-analytics--meltanolabs) |
+| [tap-peloton](https://github.com/MeltanoLabs/tap-peloton)                   | Prerelease (Beta)                | [Taylor Murphy](https://github.com/tayloramurphy) - Maintainer               | [Link](https://hub.meltano.com/taps/peloton--meltanolabs)          |
+| [tap-slack](https://github.com/MeltanoLabs/tap-slack)                       | Active (Stable)                  | [Stephen Bailey](https://github.com/stkbailey) - Maintainer                  | -                                                                  |
+| [tap-stackexchange](https://github.com/MeltanoLabs/tap-stackexchange)       | Active (Stable)                  | [Edgar Ramírez](https://github.com/edgarrmondragon) - Maintainer             | [Link](https://hub.meltano.com/taps/stackexchange--meltanolabs)    |
+| [tap-sqlalchemy](https://github.com/MeltanoLabs/tap-sqlalchemy)             | Development (Under Construction) | [AJ Steers](https://github.com/aaronsteers) - Maintainer                     | -                                                                  |
+
+### Targets
+
+| Connector Name                                                              | Status                           | Member/Organization Name                                                     | MeltanoHub                                                         |
+|-----------------------------------------------------------------------------|----------------------------------|------------------------------------------------------------------------------|--------------------------------------------------------------------|
+| [target-athena](https://github.com/MeltanoLabs/target-athena)               | Active (Stable)                  | [Andrew Stewart](https://github.com/andrewcstewart) - Maintainer             | [Link](https://hub.meltano.com/targets/athena--dataops-tk)         |
+|                                                                             |                                  | [AJ Steers](https://github.com/aaronsteers) - Maintainer                     |                                                                    |
+| [target-csv](https://github.com/MeltanoLabs/target-csv)                     | Prerelease (Beta)                | [AJ Steers](https://github.com/aaronsteers) - Maintainer                     | -                                                                  |
+| [target-sqlite](https://github.com/MeltanoLabs/target-sqlite)               | Active (Stable)                  | 🔭 Looking For Maintainers! 🔭                                                | [Link](https://hub.meltano.com/targets/sqlite--meltanolabs)        |
+| [target-yaml](https://github.com/MeltanoLabs/target-yaml)                   | Prerelease (Beta)                | 🔭 Looking For Maintainers! 🔭                    | [Link](https://hub.meltano.com/targets/yaml--meltanolabs)          |
