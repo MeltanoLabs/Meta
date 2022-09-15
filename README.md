@@ -61,7 +61,10 @@ Alternatively you could build it in your own namespace and later migrate it once
 
 ### Permissions and Teams
 
-TODO: define permissions using GitHub teams based on roles
+Each repository has a GitHub team with the same name e.g. tap-x where community members can be added.
+The GitHub team is a child of the generic Singer Taps/Targets team.
+The team is then assigned to the repository with "maintain" permissions.
+If a maintainer chooses to pass their maintenance resposibilies to another person, they are simply removed from the GitHub team to revoke privileges.
 
 ### Finding Maintainers
 
