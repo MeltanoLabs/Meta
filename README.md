@@ -113,9 +113,11 @@ Check out all the [published connectors](https://hub.meltano.com/singer/maintain
 | [tap-gitlab](https://github.com/MeltanoLabs/tap-gitlab)                     | Active (Stable)                  | 🔭 Looking For Maintainers! 🔭                                                | [Link](https://hub.meltano.com/taps/gitlab--meltanolabs)           |
 | [tap-google-analytics](https://github.com/MeltanoLabs/tap-google-analytics) | Active (Stable)                  | [Pat Nadolny](https://github.com/pnadolny13) - Maintainer                    | [Link](https://hub.meltano.com/taps/google-analytics--meltanolabs) |
 | [tap-peloton](https://github.com/MeltanoLabs/tap-peloton)                   | Prerelease (Beta)                | [Taylor Murphy](https://github.com/tayloramurphy) - Maintainer               | [Link](https://hub.meltano.com/taps/peloton--meltanolabs)          |
+| [tap-salesforce](https://github.com/MeltanoLabs/tap-salesforce)                       | Active (Stable)                  | [Dan Ladd](https://github.com/dan-ladd) - Maintainer                  |  [Link](https://hub.meltano.com/extractors/tap-salesforce--meltanolabs)                                                                 |
 | [tap-slack](https://github.com/MeltanoLabs/tap-slack)                       | Active (Stable)                  | [Stephen Bailey](https://github.com/stkbailey) - Maintainer                  | -                                                                  |
 | [tap-stackexchange](https://github.com/MeltanoLabs/tap-stackexchange)       | Active (Stable)                  | [Edgar Ramírez](https://github.com/edgarrmondragon) - Maintainer             | [Link](https://hub.meltano.com/taps/stackexchange--meltanolabs)    |
 | [tap-sqlalchemy](https://github.com/MeltanoLabs/tap-sqlalchemy)             | Development (Under Construction) | [AJ Steers](https://github.com/aaronsteers) - Maintainer                     | -                                                                  |
+| [tap-sftp](https://github.com/MeltanoLabs/tap-sftp)             | Active (Stable) | [Henning](https://github.com/radbrt) - Maintainer                     | [Link](https://hub.meltano.com/taps/sftp--meltanolabs) |
 
 ### Targets
 
