@@ -1,4 +1,8 @@
 ## This is a default config file for the Semantic PRs GitHub App.
+##
+## Note: until the related issue is closed, this file still needs to be copied to each repo.
+## Otherwise, the default configuration from the Semantic PRs GitHub App will be used.
+## See: https://github.com/Ezard/semantic-prs/issues/227
 
 # Config ref: https://github.com/Ezard/semantic-prs
 
