@@ -76,6 +76,15 @@ In this case we will do the following:
 1. If no one from the community responds in a timely manner, we can offer the PR author to become a contributor if they have a history of contributing to Meltano and/or other open source projects. (We can use their GitHub history to help in this evaluation process.)
 1. Any successfully-merged PR automatically promotes that person to "contributor" and optionally to maintainer if they've consented in step 3 and no other maintainers exist.
 
+### Relinquish Maintainership
+
+One of the main reasons for the MeltanoLabs ownership model is to allow connector maintainers to come and go.
+If you're a maintainer and no longer have the capacity or desire to be the maintainer anymore you can pass ownership off to another community member volunteer.
+
+- Open an issue in this repository "Relinquish Maintainership - tap-x" and assign it to @tayloramurphy, @pnadolny13, and @afolson.
+- Tag anyone who you suggest to be the next maintainer to get confirmation. It's fine if you don't have someone in mind, we will help find someone from the community.
+- Create a PR to edit the [connector owner table](https://github.com/MeltanoLabs/Meta#connector-owners) in this README to remove your name and optionally add the new maintainer if one exists.
+- A member of the Meltano team will remove you from the connecotr's GitHub team and add the new maintainer.
 
 ## Maintenance Statuses
 
