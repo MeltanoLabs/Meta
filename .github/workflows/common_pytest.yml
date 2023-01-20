@@ -1,0 +1,39 @@
+# A common CI workflow that runs pytest on all actively supported Python versions.
+#
+# Assumptions:
+#
+# 1. The repo works with the below-specified version of Poetry.
+# 2. The repo can be tested with pytest. 
+# 3. All Python versions named below are enabled for testing.
+
+name: Python Pytest Check (MeltanoLabs)
+
+on: [push]
+
+jobs:
+  pytest:
+    runs-on: ubuntu-latest
+    env:
+      GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: [3.7, 3.8, 3.9, 3.10]
+
+    steps:
+    - uses: actions/checkout@v3
+    - name: Install Poetry
+      uses: snok/install-poetry@v1
+      with:
+        version: 1.3.2
+    - name: Set up Python ${{ matrix.python-version }}
+      uses: actions/setup-python@v4
+      with:
+        python-version: ${{ matrix.python-version }}
+        cache: 'poetry'
+    - name: Install dependencies
+      run: |
+        poetry install
+    - name: Test with pytest
+      run: |
+        poetry run pytest --capture=no
