@@ -118,6 +118,7 @@ Check out all the [published connectors](https://hub.meltano.com/singer/maintain
 | [tap-stackexchange](https://github.com/MeltanoLabs/tap-stackexchange)       | Active (Stable)                  | [Edgar Ramírez](https://github.com/edgarrmondragon) - Maintainer             | [Link](https://hub.meltano.com/taps/stackexchange--meltanolabs)    |
 | [tap-sqlalchemy](https://github.com/MeltanoLabs/tap-sqlalchemy)             | Development (Under Construction) | [AJ Steers](https://github.com/aaronsteers) - Maintainer                     | -                                                                  |
 | [tap-sftp](https://github.com/MeltanoLabs/tap-sftp)             | Active (Stable) | [Henning](https://github.com/radbrt) - Maintainer                     | [Link](https://hub.meltano.com/taps/sftp--meltanolabs) |
+| [tap-cloudwatch](https://github.com/MeltanoLabs/tap-cloudwatch)             | Active (Stable) | [Pat Nadolny](https://github.com/pnadolny13) - Maintainer                     | [Link](https://hub.meltano.com/extractors/tap-cloudwatch--meltanolabs) |
 
 ### Targets
 
