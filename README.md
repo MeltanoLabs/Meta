@@ -119,6 +119,13 @@ Check out all the [published connectors](https://hub.meltano.com/singer/maintain
 | [tap-sqlalchemy](https://github.com/MeltanoLabs/tap-sqlalchemy)             | Development (Under Construction) | [AJ Steers](https://github.com/aaronsteers) - Maintainer                     | -                                                                  |
 | [tap-sftp](https://github.com/MeltanoLabs/tap-sftp)             | Active (Stable) | [Henning](https://github.com/radbrt) - Maintainer                     | [Link](https://hub.meltano.com/taps/sftp--meltanolabs) |
 | [tap-cloudwatch](https://github.com/MeltanoLabs/tap-cloudwatch)             | Active (Stable) | [Pat Nadolny](https://github.com/pnadolny13) - Maintainer                     | [Link](https://hub.meltano.com/extractors/tap-cloudwatch--meltanolabs) |
+| [tap-snowflake](https://github.com/MeltanoLabs/tap-snowflake)             | Prerelease (Beta) | [Meltano](https://github.com/meltano) - Maintainer                     | [Link](https://hub.meltano.com/extractors/tap-snowflake--meltanolabs) |
+| [tap-postgres](https://github.com/MeltanoLabs/tap-postgres)             | Prerelease (Beta) | [Meltano](https://github.com/meltano) - Maintainer                     | [Link](https://hub.meltano.com/extractors/tap-postgres--meltanolabs) |
+| [tap-airbyte-wrapper](https://github.com/MeltanoLabs/tap-airbyte-wrapper)             | Prerelease (Beta) | [Alex Butler](https://github.com/z3z1ma) - Maintainer                     | [Link](https://hub.meltano.com/extractors/tap-airbyte-wrapper--meltanolabs) |
+| [tap-messagebird](https://github.com/MeltanoLabs/tap-messagebird)             | Prerelease (Beta) | 🔭 Looking For Maintainers! 🔭  | [Link](https://hub.meltano.com/extractors/tap-messagebird--meltanolabs) |
+| [tap-duckdb](https://github.com/MeltanoLabs/tap-duckdb)             | Prerelease (Beta) | 🔭 Looking For Maintainers! 🔭  | [Link](https://hub.meltano.com/extractors/tap-duckdb--meltanolabs) |
+
+
 
 ### Targets
 
@@ -128,5 +135,7 @@ Check out all the [published connectors](https://hub.meltano.com/singer/maintain
 |                                                                             |                                  | [AJ Steers](https://github.com/aaronsteers) - Maintainer                     |                                                                    |
 | [target-csv](https://github.com/MeltanoLabs/target-csv)                     | Prerelease (Beta)                | [AJ Steers](https://github.com/aaronsteers) - Maintainer                     | -                                                                  |
 | [target-sqlite](https://github.com/MeltanoLabs/target-sqlite)               | Active (Stable)                  | 🔭 Looking For Maintainers! 🔭                                                | [Link](https://hub.meltano.com/targets/sqlite--meltanolabs)        |
-| [target-postgres](https://github.com/MeltanoLabs/target-postgres)| Development (Under Construction)| 🔭 Looking For Maintainers! 🔭 | TBD |
+| [target-postgres](https://github.com/MeltanoLabs/target-postgres)| Development (Under Construction)| 🔭 Looking For Maintainers! 🔭 | - |
 | [target-yaml](https://github.com/MeltanoLabs/target-yaml)                   | Prerelease (Beta)                | 🔭 Looking For Maintainers! 🔭                    | [Link](https://hub.meltano.com/targets/yaml--meltanolabs)          |
+| [target-snowflake](https://github.com/MeltanoLabs/target-snowflake)                   | Prerelease (Beta)                | [Meltano](https://github.com/meltano) - Maintainer                    | - |
+| [target-jsonl-blob](https://github.com/MeltanoLabs/target-jsonl-blob)                   | Prerelease (Beta)                | [Edgar Ramírez](https://github.com/edgarrmondragon) - Maintainer                    | - |
