@@ -1,4 +1,4 @@
-name: Publish GitHub Release to PyPi
+name: Publish GitHub Release to PyPi (MeltanoLabs)
 
 # This workflow executes upon the publishing of a release in GitHub. This does not run on draft releases.
 #
