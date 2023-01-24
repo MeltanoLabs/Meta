@@ -17,7 +17,7 @@ name: Publish GitHub Release to PyPI (MeltanoLabs)
 #   even if you are editing an existing draft.
 # - The text copy of Release Notes can freely be edited after publish, with no impact on the publish process and without
 #   risk of accidentally republishing.
-# - PyPi will only accept each semvar increment once, but failures to publish can be freely retried, and you can yank
+# - PyPI will only accept each semvar increment once, but failures to publish can be freely retried, and you can yank
 #   and release a patch on top if needed.
 
 on:
