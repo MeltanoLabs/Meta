@@ -35,4 +35,5 @@ jobs:
       run: |
         poetry install
     - name: Test with pytest
-      run: poetry run pytest --capture=no
+      run: poetry run pytest
+
