@@ -86,6 +86,16 @@ If you're a maintainer and no longer have the capacity or desire to be the maint
 - Create a PR to edit the [connector owner table](https://github.com/MeltanoLabs/Meta#connector-owners) in this README to remove your name and optionally add the new maintainer if one exists.
 - A member of the Meltano team will remove you from the connecotr's GitHub team and add the new maintainer.
 
+### Publishing to PyPI
+
+You can request that your package be published to PyPI by opening an issue in this repository "Publish to PyPI - tap-x" and cc'ing @MeltanoLabs/meltanolabs-admin with the following information:
+
+* Repository name, e.g. `MeltanoLabs/tap-messagebird`
+* Desired package name in PyPI
+* Release GitHub workflow name, e.g. `release.yml` if the workflow is in `.github/workflows/release.yml`
+
+After a short review, the team will enable the PyPI publishing workflow for your repository and you'll be able to publish releases to PyPI by triggering the release workflow.
+
 ## Maintenance Statuses
 
 Active (Stable): The connector repository is well maintained and recommended for use in production environments.
