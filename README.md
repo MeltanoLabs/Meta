@@ -158,3 +158,18 @@ Check out all the [published connectors](https://hub.meltano.com/singer/maintain
 | [target-yaml](https://github.com/MeltanoLabs/target-yaml)                   | Prerelease (Beta)                | 🔭 Looking For Maintainers! 🔭                    | [Link](https://hub.meltano.com/targets/yaml--meltanolabs)          |
 | [target-snowflake](https://github.com/MeltanoLabs/target-snowflake)                   | Prerelease (Beta)                | [Meltano](https://github.com/meltano) - Maintainer                    | - |
 | [target-jsonl-blob](https://github.com/MeltanoLabs/target-jsonl-blob)                   | Prerelease (Beta)                | [Edgar Ramírez](https://github.com/edgarrmondragon) - Maintainer                    | - |
+
+## Common CI Workflows
+
+MeltanoLabs taps and targets can share workflows via the GitHub [Required Workflows](https://github.blog/2023-01-10-introducing-required-workflows-and-configuration-variables-to-github-actions/#:~:text=Required%20workflows%20allows%20DevOps%20teams,impossible%20task%20in%20large%20organizations.) feature.
+
+Repositories are "opted in" to shared workflows via the [Add Required Workflows](https://github.com/organizations/MeltanoLabs/settings/actions/required_workflows/new) GitHub web UI.
+
+When eligible for this behavior, and when the repo is opted-in by a MeltanoLabs administrator, common CI workflows may include (but are not necessarily limited to):
+
+1. Automated CI testing on currently-supported Python versions.
+1. Automated verification of Semantic PR logic.
+1. Release management using dynamic versioning.
+1. Automated Release Notes drafting using Semantic PRs.
+
+For a full list of common workflows, see the `.github/workflows` directory within this repo. Each workflow should be self-documenting, including assumptions and behavior notes.
