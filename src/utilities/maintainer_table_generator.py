@@ -20,12 +20,12 @@ def main():
         for connector_type in data:
             value_matrix = []
             for connector in data[connector_type]:
-                owners = connector["owners"][0]                  
+                owners = connector["owners"][0]
                 value_matrix.append([
                     f"[{connector['name']}]({connector['repo']})",
                     LOOKUPS["status"][connector["status"]],
                     f"[{owners['name']}](https://github.com/{owners['github_username']}) - {owners['role']}",
-                    f"[Link]({connector['hub_link']})",
+                    f"[Link]({connector['hub_link']})" if connector["hub_link"] else "",
                 ])
                 if len(connector["owners"]) > 1:
                     for owner in connector["owners"][1:]:
