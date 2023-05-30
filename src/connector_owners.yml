@@ -133,7 +133,7 @@ taps:
       role: Maintainer
 - name: tap-sqlalchemy
   repo: https://github.com/MeltanoLabs/tap-sqlalchemy
-  status: development
+  status: beta
   hub_link: null
   owners:
     - name: AJ Steers
@@ -157,7 +157,7 @@ taps:
       role: Maintainer
 - name: tap-snowflake
   repo: https://github.com/MeltanoLabs/tap-snowflake
-  status: beta
+  status: active
   hub_link: https://hub.meltano.com/extractors/tap-snowflake--meltanolabs/
   owners:
     - name: Meltano
@@ -165,7 +165,7 @@ taps:
       role: Maintainer
 - name: tap-postgres
   repo: https://github.com/MeltanoLabs/tap-postgres
-  status: beta
+  status: active
   hub_link: https://hub.meltano.com/extractors/tap-postgres--meltanolabs/
   owners:
     - name: Meltano
@@ -173,7 +173,7 @@ taps:
       role: Maintainer
 - name: tap-airbyte-wrapper
   repo: https://github.com/MeltanoLabs/tap-airbyte-wrapper
-  status: beta
+  status: active
   hub_link: https://hub.meltano.com/extractors/tap-airbyte-wrapper--meltanolabs/
   owners:
     - name: Alex Butler
@@ -181,7 +181,7 @@ taps:
       role: Maintainer
 - name: tap-messagebird
   repo: https://github.com/MeltanoLabs/tap-messagebird
-  status: beta
+  status: active
   hub_link: https://hub.meltano.com/extractors/tap-messagebird--meltanolabs/
   owners:
     - name: Meltano
@@ -189,7 +189,7 @@ taps:
       role: Maintainer
 - name: tap-duckdb
   repo: https://github.com/MeltanoLabs/tap-duckdb
-  status: beta
+  status: active
   hub_link: https://hub.meltano.com/extractors/tap-duckdb--meltanolabs/
   owners:
     - name: Meltano
@@ -198,7 +198,7 @@ taps:
 targets:
 - name: target-snowflake
   repo: https://github.com/MeltanoLabs/target-snowflake
-  status: beta
+  status: active
   hub_link: https://hub.meltano.com/loaders/target-snowflake--meltanolabs/
   owners:
     - name: Meltano
@@ -206,7 +206,7 @@ targets:
       role: Maintainer
 - name: target-athena
   repo: https://github.com/MeltanoLabs/target-athena
-  status: beta
+  status: active
   hub_link: https://hub.meltano.com/loaders/target-athena--meltanolabs/
   owners:
     - name: Andrew Stewart
@@ -217,7 +217,7 @@ targets:
       role: Maintainer
 - name: target-csv
   repo: https://github.com/MeltanoLabs/target-csv
-  status: beta
+  status: active
   hub_link: https://hub.meltano.com/loaders/target-csv--meltanolabs/
   owners:
     - name: AJ Steers
@@ -225,7 +225,7 @@ targets:
       role: Maintainer
 - name: target-sqlite
   repo: https://github.com/MeltanoLabs/target-sqlite
-  status: beta
+  status: active
   hub_link: https://hub.meltano.com/loaders/target-sqlite--meltanolabs/
   owners:
     - name: Meltano
@@ -233,7 +233,7 @@ targets:
       role: Maintainer
 - name: target-postgres
   repo: https://github.com/MeltanoLabs/target-postgres
-  status: development
+  status: active
   hub_link: https://hub.meltano.com/loaders/target-postgres--meltanolabs/
   owners:
     - name: Meltano
@@ -241,7 +241,7 @@ targets:
       role: Maintainer
 - name: target-yaml
   repo: https://github.com/MeltanoLabs/target-yaml
-  status: beta
+  status: active
   hub_link: https://hub.meltano.com/loaders/target-yaml--meltanolabs/
   owners:
     - name: Meltano
