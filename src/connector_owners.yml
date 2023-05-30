@@ -266,7 +266,7 @@ targets:
 - name: target-duckdb
   repo: https://github.com/MeltanoLabs/target-duckdb
   status: beta
-  hub_link: https://hub.meltano.com/loaders/target-duckdb--meltanolabs/
+  hub_link: null
   owners:
     - name: Meltano
       github_username: meltano
