@@ -1,5 +1,45 @@
 ---
 taps:
+- name: tap-linkedin-ads
+  repo: https://github.com/MeltanoLabs/tap-linkedin-ads
+  status: active
+  hub_link: https://hub.meltano.com/extractors/tap-linkedin-ads--meltanolabs/
+  owners:
+    - name: Meltano
+      github_username: meltano
+      role: Maintainer
+- name: tap-facebook
+  repo: https://github.com/MeltanoLabs/tap-facebook
+  status: active
+  hub_link: https://hub.meltano.com/extractors/tap-facebook--meltanolabs/
+  owners:
+    - name: Meltano
+      github_username: meltano
+      role: Maintainer
+- name: tap-klaviyo
+  repo: https://github.com/MeltanoLabs/tap-klaviyo
+  status: active
+  hub_link: https://hub.meltano.com/extractors/tap-klaviyo--meltanolabs/
+  owners:
+    - name: Meltano
+      github_username: meltano
+      role: Maintainer
+- name: tap-kustomer
+  repo: https://github.com/MeltanoLabs/tap-kustomer
+  status: active
+  hub_link: https://hub.meltano.com/extractors/tap-kustomer--meltanolabs/
+  owners:
+    - name: Meltano
+      github_username: meltano
+      role: Maintainer
+- name: tap-pulumi-cloud
+  repo: https://github.com/MeltanoLabs/tap-pulumi-cloud
+  status: active
+  hub_link: https://hub.meltano.com/extractors/tap-pulumi-cloud--meltanolabs/
+  owners:
+    - name: Meltano
+      github_username: meltano
+      role: Maintainer
 - name: tap-athena
   repo: https://github.com/MeltanoLabs/tap-athena
   status: active
@@ -32,7 +72,6 @@ taps:
     - name: Edgar Ramírez
       github_username: edgarrmondragon
       role: Maintainer
-
 - name: tap-github
   repo: https://github.com/MeltanoLabs/tap-github
   status: active
@@ -44,7 +83,6 @@ taps:
     - name: Laurent Savaete
       github_username: laurentS
       role: Maintainer
-
 - name: tap-gitlab
   repo: https://github.com/MeltanoLabs/tap-gitlab
   status: active
@@ -61,7 +99,6 @@ taps:
     - name: Pat Nadolny
       github_username: pnadolny13
       role: Maintainer
-
 - name: tap-peloton
   repo: https://github.com/MeltanoLabs/tap-peloton
   status: active
@@ -70,8 +107,6 @@ taps:
     - name: Taylor Murphy
       github_username: tayloramurphy
       role: Maintainer
-
-
 - name: tap-salesforce
   repo: https://github.com/MeltanoLabs/tap-salesforce
   status: active
@@ -98,8 +133,8 @@ taps:
       role: Maintainer
 - name: tap-sqlalchemy
   repo: https://github.com/MeltanoLabs/tap-sqlalchemy
-  status: development
-  hub_link: https://hub.meltano.com/extractors/tap-sqlalchemy--meltanolabs/
+  status: beta
+  hub_link: null
   owners:
     - name: AJ Steers
       github_username: aaronsteers
@@ -122,7 +157,7 @@ taps:
       role: Maintainer
 - name: tap-snowflake
   repo: https://github.com/MeltanoLabs/tap-snowflake
-  status: beta
+  status: active
   hub_link: https://hub.meltano.com/extractors/tap-snowflake--meltanolabs/
   owners:
     - name: Meltano
@@ -130,7 +165,7 @@ taps:
       role: Maintainer
 - name: tap-postgres
   repo: https://github.com/MeltanoLabs/tap-postgres
-  status: beta
+  status: active
   hub_link: https://hub.meltano.com/extractors/tap-postgres--meltanolabs/
   owners:
     - name: Meltano
@@ -138,7 +173,7 @@ taps:
       role: Maintainer
 - name: tap-airbyte-wrapper
   repo: https://github.com/MeltanoLabs/tap-airbyte-wrapper
-  status: beta
+  status: active
   hub_link: https://hub.meltano.com/extractors/tap-airbyte-wrapper--meltanolabs/
   owners:
     - name: Alex Butler
@@ -146,7 +181,7 @@ taps:
       role: Maintainer
 - name: tap-messagebird
   repo: https://github.com/MeltanoLabs/tap-messagebird
-  status: beta
+  status: active
   hub_link: https://hub.meltano.com/extractors/tap-messagebird--meltanolabs/
   owners:
     - name: Meltano
@@ -154,7 +189,7 @@ taps:
       role: Maintainer
 - name: tap-duckdb
   repo: https://github.com/MeltanoLabs/tap-duckdb
-  status: beta
+  status: active
   hub_link: https://hub.meltano.com/extractors/tap-duckdb--meltanolabs/
   owners:
     - name: Meltano
@@ -163,7 +198,7 @@ taps:
 targets:
 - name: target-snowflake
   repo: https://github.com/MeltanoLabs/target-snowflake
-  status: beta
+  status: active
   hub_link: https://hub.meltano.com/loaders/target-snowflake--meltanolabs/
   owners:
     - name: Meltano
@@ -171,7 +206,7 @@ targets:
       role: Maintainer
 - name: target-athena
   repo: https://github.com/MeltanoLabs/target-athena
-  status: beta
+  status: active
   hub_link: https://hub.meltano.com/loaders/target-athena--meltanolabs/
   owners:
     - name: Andrew Stewart
@@ -182,7 +217,7 @@ targets:
       role: Maintainer
 - name: target-csv
   repo: https://github.com/MeltanoLabs/target-csv
-  status: beta
+  status: active
   hub_link: https://hub.meltano.com/loaders/target-csv--meltanolabs/
   owners:
     - name: AJ Steers
@@ -190,7 +225,7 @@ targets:
       role: Maintainer
 - name: target-sqlite
   repo: https://github.com/MeltanoLabs/target-sqlite
-  status: beta
+  status: active
   hub_link: https://hub.meltano.com/loaders/target-sqlite--meltanolabs/
   owners:
     - name: Meltano
@@ -198,7 +233,7 @@ targets:
       role: Maintainer
 - name: target-postgres
   repo: https://github.com/MeltanoLabs/target-postgres
-  status: development
+  status: active
   hub_link: https://hub.meltano.com/loaders/target-postgres--meltanolabs/
   owners:
     - name: Meltano
@@ -206,7 +241,7 @@ targets:
       role: Maintainer
 - name: target-yaml
   repo: https://github.com/MeltanoLabs/target-yaml
-  status: beta
+  status: active
   hub_link: https://hub.meltano.com/loaders/target-yaml--meltanolabs/
   owners:
     - name: Meltano
@@ -219,4 +254,20 @@ targets:
   owners:
     - name: Edgar Ramírez
       github_username: edgarrmondragon
+      role: Maintainer
+- name: target-chromadb
+  repo: https://github.com/MeltanoLabs/target-chromadb
+  status: beta
+  hub_link: https://hub.meltano.com/loaders/target-chromadb--meltanolabs/
+  owners:
+    - name: Meltano
+      github_username: meltano
+      role: Maintainer
+- name: target-duckdb
+  repo: https://github.com/MeltanoLabs/target-duckdb
+  status: beta
+  hub_link: null
+  owners:
+    - name: Meltano
+      github_username: meltano
       role: Maintainer
