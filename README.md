@@ -11,7 +11,7 @@ Based on the [Maintenance Statuses](#Maintenance-Statuses) we expect that most o
 
 With MeltanoLabs we hope to foster a community of contributors who are well versed in Singer and the Meltano SDK.
 The three roles that exist in MeltanoLabs are maintainers, contributors, and community members.
-Each one has different expectations and level of access to the respositories within MeltanoLabs.
+Each one has different expectations and level of access to the repositories within MeltanoLabs.
 
 ### Community Members
 
@@ -21,12 +21,12 @@ The more community members we have that are using these connectors the faster we
 
 ### Contributors
 
-MeltanoLabs contributors are community members who volunteer to actively make contributions and review pull requests/issues within MeltanoLabs repositories but dont have an explicit maintainer status on any one repository.
+MeltanoLabs contributors are community members who volunteer to actively make contributions and review pull requests/issues within MeltanoLabs repositories but don't have an explicit maintainer status on any one repository.
 This group of community members will be part of the `labs` slack channel and will be the first to hear about repositories that need new maintainer volunteers and general maintenance requests.
 
 ### Maintainers
 
-Connector maintainers are community members who have stepped up to take temporary ownership of a repository's maintainenance.
+Connector maintainers are community members who have stepped up to take temporary ownership of a repository's maintenance.
 Community members can volunteer to be owners of a connector for a specific duration of time.
 This is much more light weight and very different from asking for full-time permanent fork owners.
 The developer can support for the project scope or time duration that makes sense.
@@ -45,7 +45,9 @@ The two main ways that connectors are added to MeltanoLabs right now are either 
 MeltanoLabs is a great place for community members to incubate connectors for new sources or destinations in a shared space to make it easier for the community to contribute and maintain it into the future after it leaves the development phase.
 We also encourage community members to use this as a place where existing connectors can be rebuilt or ported over to the Meltano SDK.
 
-If you'd like to create a new connector in MeltanoLabs create an issue labeled "Add New Connector - [your connector name]" in the [Meta repo](https://github.com/MeltanoLabs/Meta) and assign it to @tayloramurphy and @pnadolny13 when youre code is ready to be pushed up to GitHub and they will create you a repository and give you access.
+See the [Connector Development Standards](connector-dev.md) guide for best practices and conventions.
+
+If you'd like to create a new connector in MeltanoLabs, create an issue labeled "Add New Connector - [your connector name]" in the [Meta repo](https://github.com/MeltanoLabs/Meta) and assign it to @tayloramurphy and @pnadolny13 when you're code is ready to be pushed up to GitHub and they will create you a repository and give you access.
 Alternatively you could build it in your own namespace and later migrate it once its ready.
 
 ### Migrating An Existing Connector
@@ -64,11 +66,11 @@ Alternatively you could build it in your own namespace and later migrate it once
 Each repository has a GitHub team with the same name e.g. tap-x where community members can be added.
 The GitHub team is a child of the generic Singer Taps/Targets team.
 The team is then assigned to the repository with "maintain" permissions.
-If a maintainer chooses to pass their maintenance resposibilies to another person, they are simply removed from the GitHub team to revoke privileges.
+If a maintainer chooses to pass their maintenance responsibilities to another person, they are simply removed from the GitHub team to revoke privileges.
 
 ### Finding Maintainers
 
-The initial approach will be to ask for volunteers within the MeltanoLabs community to take ownership of a respository as maintainer but we know that for some less frequently used connectors there might not be enough volunteers.
+The initial approach will be to ask for volunteers within the MeltanoLabs community to take ownership of a repository as maintainer but we know that for some less frequently used connectors there might not be enough volunteers.
 
 In this case we will do the following:
 1. Whenever we receive a PR or Issue for a connector that has no maintainers, we announce this to the contributor.
@@ -84,7 +86,7 @@ If you're a maintainer and no longer have the capacity or desire to be the maint
 - Open an issue in this repository "Relinquish Maintainership - tap-x" and assign it to @tayloramurphy, @pnadolny13, and @afolson.
 - Tag anyone who you suggest to be the next maintainer to get confirmation. It's fine if you don't have someone in mind, we will help find someone from the community.
 - Create a PR to edit the [connector owner table](https://github.com/MeltanoLabs/Meta#connector-owners) in this README to remove your name and optionally add the new maintainer if one exists.
-- A member of the Meltano team will remove you from the connecotr's GitHub team and add the new maintainer.
+- A member of the Meltano team will remove you from the connector's GitHub team and add the new maintainer.
 
 ### Publishing to PyPI
 
@@ -101,19 +103,20 @@ After a short review, the team will enable the PyPI publishing workflow for your
 Active (Stable): The connector repository is well maintained and recommended for use in production environments.
 The repository has all of the following attributes; all known issues and bugs are addressed promptly, changes are expected to go through pull request reviews, releases to main are created on the appropriate cadence, security patches are addressed promptly, a CI pipeline that runs automated testing is present, community contributed pull requests are reviewed in a timely manner, README is complete with examples and detail, etc.
 
-Prerelease (Beta): The repository was recently created and initial development is complete but hasnt been hardened enough for production environments yet.
+Prerelease (Beta): The repository was recently created and initial development is complete but hasn't been hardened enough for production environments yet.
 We encourage the community to start testing out the connector and submit issues or merge requests to help get it to the Active (Stable) status.
 The repository has some or all of the following attributes; most of the features are functioning but edge cases and bugs are still being addressed, changes are expected to go through pull requests and issues, some automated tests but code coverage could be low, optional CI, the README is clear and minimally complete but might be lacking in extensive detail or examples, etc.
 
 Development (Under Construction): The repository is undergoing initial development and is not ready to be used yet.
 Not recommended for use outside of development environments.
-The repository has some or all of the following attributes; the developer might be regularly commiting directly to the main branch, pull requests reviews are optional, no CI/CD, tests might not be passing, README might be sparse, etc.
+The repository has some or all of the following attributes; the developer might be regularly committing directly to the main branch, pull requests reviews are optional, no CI/CD, tests might not be passing, README might be sparse, etc.
 
 Inactive or Stale: The repository has some or all of the following attributes; unresponsive maintainers, many unaddressed issues or pull requests, security patches are not kept up to date, unresolved failing CI pipelines, etc.
 
 Unknown: The status of the connector is currently undefined.
-We encourage community memebers to submit merge requests to update incorrect statuses.
+We encourage community members to submit merge requests to update incorrect statuses.
 
+See the [Connector Development Standards](connector-dev.md) guide for best practices and conventions.
 
 ## Connector Owners
 
