@@ -25,7 +25,7 @@ Generally when deciding the name for a connector we use the `tap-<source>` namin
 - Use dashes over underscores
 - Avoid extras like `tap-<source>-sdk`, `meltano-tap-<source>`, `tap-<source>-new`, `target-<destination>-loader`, etc.
 - If rebuilding an existing connector it's usually best to keep the same naming convention as existing legacy connectors for clarity within the community.
-For example prefer `tap-facebook` to `tap-meta` (Facebook's new name) because theres a long history of taps named `tap-facebook` and will be more clear.
+For example, prefer `tap-facebook` to `tap-meta` (Facebook's new name) because there's a long history of taps named `tap-facebook` and will be more clear.
 With that consideration in mind, use your best judgement.
 
 ## Coding Standards
