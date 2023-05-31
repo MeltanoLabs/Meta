@@ -6,15 +6,14 @@ Many times the connectors in MeltanoLabs are built from scratch as a brand new c
 With that in mind this is a compiled list of the development best practices and standards for adding a connector to MeltanoLabs.
 This can also act as a guide for others outside the MeltanoLabs organization to understand the best approach to building a high quality connector.
 
+## Tips For Building From Scratch
 
-## Building From Scratch Tips
+### Start With the cookiecutter Templates
 
-### Start with the cookiecutter templates
+When building from scratch always use the cookiecutter to make sure the newest features and recommended scaffold is present.
+This is compared to starting with a clone of an existing SDK repo and modifying it for the new source, which could miss out on some improvements.
 
-When building from scratch always use the cookiecutter to make sure the newest set up and recommended scaffold is present.
-This is compared to starting with a clone of an existing SDK repo and modifying it for the new source which could miss some improvements.
-
-### Use the latest SDK version
+### Use the Latest SDK Version
 
 Similarly you should always start development of a new connector using the latest SDK version.
 The SDK has had major improvements over time so making sure you're taking advantage of the latest features and not accidentally reinventing the wheel is important.
@@ -31,7 +30,7 @@ With that consideration in mind, use your best judgement.
 
 ## Coding Standards
 
-### Implement integration tests
+### Implement Integration Tests
 The cookiecutter comes with default tests and the SDK has a [testing framework](https://sdk.meltano.com/en/latest/testing.html).
 You should implement at least the minimum tests.
 
@@ -48,10 +47,9 @@ Ensure that catalog stream, property, and metadata is respected by the tap.
 - pyproject.toml package version and github/pypi release version should match
 - Check for unused imports
 
-### Other tips
+### Other Development Tips
 - General coding practices: https://handbook.meltano.com/engineering/dev-standards/
 - All the TODOs from the cookiecutter should be completed and removed in initial development
-
 
 ## Repository Standards
 

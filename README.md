@@ -116,6 +116,7 @@ Inactive or Stale: The repository has some or all of the following attributes; u
 Unknown: The status of the connector is currently undefined.
 We encourage community members to submit merge requests to update incorrect statuses.
 
+See the [Connector Development Standards](connector-dev.md) guide for best practices and conventions.
 
 ## Connector Owners
 
