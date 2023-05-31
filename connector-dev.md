@@ -1,7 +1,7 @@
 # Connector Development Standards
 
-MeltanoLabs is primarily a place for well written SDK based connectors.
-As part of that there's an expected level of quality that each connector should strive to meet.
+MeltanoLabs is primarily a place for well-written SDK based connectors.
+As part of that, there's an expected level of quality that each connector should strive to meet.
 Many times the connectors in MeltanoLabs are built from scratch as a brand new connector or rebuilt to replace a legacy one.
 With that in mind this is a compiled list of the development best practices and standards for adding a connector to MeltanoLabs.
 This can also act as a guide for others outside the MeltanoLabs organization to understand the best approach to building a high quality connector.
