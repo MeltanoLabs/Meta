@@ -47,7 +47,7 @@ We also encourage community members to use this as a place where existing connec
 
 See the [Connector Development Standards](connector-dev.md) guide for best practices and conventions.
 
-If you'd like to create a new connector in MeltanoLabs create an issue labeled "Add New Connector - [your connector name]" in the [Meta repo](https://github.com/MeltanoLabs/Meta) and assign it to @tayloramurphy and @pnadolny13 when you're code is ready to be pushed up to GitHub and they will create you a repository and give you access.
+If you'd like to create a new connector in MeltanoLabs, create an issue labeled "Add New Connector - [your connector name]" in the [Meta repo](https://github.com/MeltanoLabs/Meta) and assign it to @tayloramurphy and @pnadolny13 when you're code is ready to be pushed up to GitHub and they will create you a repository and give you access.
 Alternatively you could build it in your own namespace and later migrate it once its ready.
 
 ### Migrating An Existing Connector
