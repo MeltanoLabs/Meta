@@ -47,7 +47,7 @@ We also encourage community members to use this as a place where existing connec
 
 See the [Connector Development Standards](connector-dev.md) guide for best practices and conventions.
 
-If you'd like to create a new connector in MeltanoLabs, create an issue labeled "Add New Connector - [your connector name]" in the [Meta repo](https://github.com/MeltanoLabs/Meta) and assign it to @tayloramurphy and @pnadolny13 when you're code is ready to be pushed up to GitHub and they will create you a repository and give you access.
+If you'd like to create a new connector in MeltanoLabs, create an issue labeled "Add New Connector - [your connector name]" in the [Meta repo](https://github.com/MeltanoLabs/Meta) and assign it to @MeltanoLabs/meltanolabs-admin when you're code is ready to be pushed up to GitHub and they will create you a repository and give you access.
 Alternatively you could build it in your own namespace and later migrate it once its ready.
 
 ### Migrating An Existing Connector
@@ -57,7 +57,7 @@ In this case the primary maintainer has the option to migrate their connector to
 
 Connectors in MeltanoLabs have quality expectations. If the connector does not meet the standard then we will label it with the appropriate maintenance status in its current state and request community contributions to get it up to the Active (Stable) status we expect.
 
-If you'd like to migrate an existing connector to MeltanoLabs create an issue labeled "Migrate Existing Connector - [your connector name]" in the [Meta repo](https://github.com/MeltanoLabs/Meta) and assign it to @tayloramurphy and @pnadolny13 with a link to the source repository you would like to migrate.
+If you'd like to migrate an existing connector to MeltanoLabs create an issue labeled "Migrate Existing Connector - [your connector name]" in the [Meta repo](https://github.com/MeltanoLabs/Meta) and assign it to @MeltanoLabs/meltanolabs-admin with a link to the source repository you would like to migrate.
 The Admins will review your repository and will give instructions on how to migrate along with necessary permissions once its been approved.
 Alternatively you could build it in your own namespace and later migrate it once its ready.
 
@@ -83,7 +83,7 @@ In this case we will do the following:
 One of the main reasons for the MeltanoLabs ownership model is to allow connector maintainers to come and go.
 If you're a maintainer and no longer have the capacity or desire to be the maintainer anymore you can pass ownership off to another community member volunteer.
 
-- Open an issue in this repository "Relinquish Maintainership - tap-x" and assign it to @tayloramurphy, @pnadolny13, and @afolson.
+- Open an issue in this repository "Relinquish Maintainership - tap-x" and assign it to @MeltanoLabs/meltanolabs-admin.
 - Tag anyone who you suggest to be the next maintainer to get confirmation. It's fine if you don't have someone in mind, we will help find someone from the community.
 - Create a PR to edit the [connector owner table](https://github.com/MeltanoLabs/Meta#connector-owners) in this README to remove your name and optionally add the new maintainer if one exists.
 - A member of the Meltano team will remove you from the connector's GitHub team and add the new maintainer.
